@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for your feedback!</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name">Name
+          <input type="text" id="name" name="name" placeholder="Enter Name" required/>
+        </label>
+      </div>
+      <div>
+        <label id="email-label">Email
+          <input type="email" id="email" name="" placeholder="Enter Email" required/>
+        </label>
+      </div>
+      <div>
+        <label id="number-label">Age
+          <input type="number" id="number" name="" placeholder="Age" min="1" max="100" />
+        </label>
+      </div>
+      <div>
+        <p>Occupation?</p>
+        <select id="dropdown">
+          <option value="Student">Student</option>
+          <option value="Job">Full Time Job</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <p>Are you planning to attend the concert? </p>
+          <label><input type="radio" name="rsvp" value="yes">Yes</label>
+          <label><input type="radio" name="rsvp" value="maybe">Maybe</label>
+          <label><input type="radio" name="rsvp" value="no">No</label>
+      </div>
+      <div>
+        <p>Favorite Sports?</p>
+          <label><input type="checkbox" value="basketball">Basketball</label>
+          <label><input type="checkbox" value="volleyball">Volleyball</label>
+          <label><input type="checkbox" value="soccer">Soccer</label>
+          <label><input type="checkbox" value="football">Football</label>
+          <label><input type="checkbox" value="baseball">Baseball</label>
+          <label><input type="checkbox" value="hockey">Hockey</label>
+      </div>
+      <div>
+        <p>Additional Comments?</p>
+        <textarea>Enter your comments here...</textarea>
+      </div>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+
+</html>
