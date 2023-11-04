@@ -1,8 +1,36 @@
 img {
     display: block;
     max-width: 100%;
-}
-
-h1, #headcaption {
+    align-self: center;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 50;
+  }
+  
+  h1, #headcaption {
+      text-align: center;
+  }
+  
+  figcaption {
     text-align: center;
-}
+    padding: 10px;
+    font-size: 12;
+  }
+  
+  #tribute-info p {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  li {
+    padding: 5px;
+  }
+  
+  section p {
+    text-align: center;
+  }
+  
+  
+  
